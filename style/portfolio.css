@@ -24,7 +24,21 @@
     padding: 18px 35px;
     border-radius: 5px;
     border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
 
+.btn-primary-2{
+    background-color: white; 
+    color: #fd6e0a; 
+    border: solid 1px #fd6e0a
+}
+
+.btn-primary-2:hover{
+    border: 1px solid #fd6e0a;
+    background: #fd6e0a;
+    color: white;
+    transition: 1s;
 }
 
 /* Header styles */
@@ -72,23 +86,32 @@ nav li a{
 }
 
 .banner-content{
-    max-width: 580px;
+    max-width: 580px;  
+    margin-top: 60px;  
+    /* margin-bottom: 184px; */
 }
 
 .banner-greetings{
     font-size: 45px;
     font-weight: 600;
+    /* margin-top: 185px; */
+    margin-bottom: 5px;
 }
 
 .banner-title{
     font-size: 85px;
     font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
-/* .banner-description{
-
-} */
+.banner-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
 
 .banner-profile-pic{
     width: 580px;
 }
+
